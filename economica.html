@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/png" href="ico.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="theme-color" content="#000000" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Liber Bus</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body id="bootstrap_overrides">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div class="container-fluid">
+
+    <div class="row custom-vertical-padding">
+      <div class="offset-0 offset-md-2 offset-sm-2 offset-lg-3 col-12 col-sm-8 col-md-8 col-lg-6 text-center">
+        <button class="btn my-2 my-sm-0 custom-btn-disabled" type="submit">
+          <span>
+            <i class="fas fa-coins custom-icon icon-behind"></i>
+            <h4 class="text-white bold-font text-forward">ECONOMICA</h4>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <section class="instructions vertical-margin-bottom">
+          <p class="instructions-paragraph regular-font text-royal-blue">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse odio felis, venenatis volutpat
+            pellentesque at, iaculis eu nulla. Integer iaculis ipsum mauris, a mattis tortor ultrices tempor. Maecenas
+            non malesuada elit, id condimentum turpis. Maecenas condimentum lacus eget vulputate euismod. Cras sed
+            pellentesque arcu. Proin imperdiet commodo sagittis. Proin quam elit, mattis sed dolor sed, tempus elementum
+            eros. Quisque sollicitudin lectus tellus.
+          </p>
+        </section>
+      </div>
+
+      <div class="offset-0 offset-lg-3 offset-md-2 offset-sm-2 col-12 col-sm-8 col-md-8 col-lg-6 text-center">
+        <h2 class="text-royal-blue bold-font custom-full-name-big vertical-margin-bottom">NOMBRE DEL PACIENTE</h2>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Área</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Urbana
+                <input type="radio" name="area" value="urbana" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Semi-urbana
+                <input type="radio" name="area" value="semi-urbana" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Villa
+                <input type="radio" name="area" value="villa" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Rural
+                <input type="radio" name="area" value="rural" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Servicios de Luz</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Eléctrica
+                <input type="radio" name="energy" value="electrica" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Candil
+                <input type="radio" name="energy" value="candil" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Vela
+                <input type="radio" name="energy" value="vela" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Servicios de Agua</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Potable
+                <input type="radio" name="water" value="potable" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Pozo
+                <input type="radio" name="water" value="pozo" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Rio
+                <input type="radio" name="water" value="rio" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Laguna
+                <input type="radio" name="water" value="laguna" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Condiciones sanitarias</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Drenaje
+                <input type="radio" name="sanitary" value="drenaje" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Letrina
+                <input type="radio" name="sanitary" value="letrina" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Aire libre
+                <input type="radio" name="sanitary" value="airelibre" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Fosa séptica
+                <input type="radio" name="sanitary" value="fosaseptica" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Tipo de vivienda</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Casa propia
+                <input type="radio" name="houseType" value="propia" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Renta
+                <input type="radio" name="houseType" value="renta" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Prestada
+                <input type="radio" name="houseType" value="prestada" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Otro
+                <input type="radio" name="houseType" value="otro" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label for="specify"
+                class="text-royal-blue bold-font float-left custom-form-label-element">Especifique</label>
+              <input type="text" name="specific" class="form-control custom-input" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Tipo de construcción</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Concreto
+                <input type="radio" name="constructionType" value="concreto" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Lámina
+                <input type="radio" name="constructionType" value="lamina" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Cartón
+                <input type="radio" name="constructionType" value="carton" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Cañitas
+                <input type="radio" name="constructionType" value="canitas" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Madera
+                <input type="radio" name="constructionType" value="madera" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Techo</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Loza
+                <input type="radio" name="roof" value="loza" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Lámina
+                <input type="radio" name="roof" value="lamina" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Teja
+                <input type="radio" name="roof" value="teja" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Guano
+                <input type="radio" name="roof" value="guano" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Cartón
+                <input type="radio" name="roof" value="carton" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Piso</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Tierra
+                <input type="radio" name="floor" value="tierra" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Cemento
+                <input type="radio" name="floor" value="cemento" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Loseta
+                <input type="radio" name="floor" value="loseta" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Número de habitaciones</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label for="numero" class="instructions-paragraph regular-font text-royal-blue">Núm de
+                dormitorios</label>
+              <select class="form-control custom-input custom-input-select" name="numero" value={rooms.numero}
+                onChange={this._handleInputChange.bind(this)}>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Cocina
+                <input type="checkbox" name="cocina"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Sala
+                <input type="checkbox" name="sala"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Comedor
+                <input type="checkbox" name="comedor"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Hábitos alimenticios</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Frutas
+                <input type="checkbox" name="frutas"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Verduras
+                <input type="checkbox" name="verduras"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Carnes rojas
+                <input type="checkbox" name="carne"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Animales de corral
+                <input type="checkbox" name="corral"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Pescado
+                <input type="checkbox" name="pescado"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Cereal
+                <input type="checkbox" name="cereal"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Frijol
+                <input type="checkbox" name="frijol"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Arroz
+                <input type="checkbox" name="arroz"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Lenteja
+                <input type="checkbox" name="lenteja"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Garbanzo
+                <input type="checkbox" name="garbanzo"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Pasta
+                <input type="checkbox" name="pasta"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Higiene de limpieza observable</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Limpia
+                <input type="radio" name="hygiene" value="limpio" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">Sucia
+                <input type="radio" name="hygiene" value="sucio" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
+            <span class="text-royal-blue bold-font custom-form-label-element">Animales de traspatio</span>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">De corral
+                <input type="checkbox" name="corral"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Cerdos
+                <input type="checkbox" name="cerdos"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-2">
+            <div class="form-group">
+              <label class="checktainer regular-font text-royal-blue">Perros
+                <input type="checkbox" name="perros"/>
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-0 mt-sm-0 mt-md-0 mt-lg-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <textarea class="form-control custom-textarea" name="observations" rows="5" placeholder="Observaciones"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="offset-0 offset-lg-3 offset-md-2 offset-sm-2 col-12 col-sm-8 col-md-8 col-lg-6 mt-4 vertical-margin-bottom">
+        <center>
+          <button class="btn my-2 my-sm-0 custom-btn-save" type="submit">
+            <span class="text-white bold-font custom-btn-save-text">Guardar</span>
+          </button>
+        </center>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
