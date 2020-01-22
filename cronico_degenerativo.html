@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/png" href="ico.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Liber Bus</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body id="bootstrap_overrides">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="container-fluid">
+
+        <div class="row custom-vertical-padding">
+            <div class="offset-0 offset-md-2 offset-sm-2 offset-lg-3 col-12 col-sm-8 col-md-8 col-lg-6 text-center">
+                <button class="btn my-2 my-sm-0 custom-btn-disabled" type="submit">
+                    <span>
+                        <i class="fas fa-headphones custom-icon icon-behind"></i>
+                        <h4 class="text-white bold-font text-forward">AUDITIVO</h4>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <section class="instructions vertical-margin-bottom">
+                    <p class="instructions-paragraph regular-font text-royal-blue">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse odio felis, venenatis
+                        volutpat
+                        pellentesque at, iaculis eu nulla. Integer iaculis ipsum mauris, a mattis tortor ultrices
+                        tempor. Maecenas
+                        non malesuada elit, id condimentum turpis. Maecenas condimentum lacus eget vulputate euismod.
+                        Cras sed
+                        pellentesque arcu. Proin imperdiet commodo sagittis. Proin quam elit, mattis sed dolor sed,
+                        tempus elementum
+                        eros. Quisque sollicitudin lectus tellus.
+                    </p>
+                </section>
+            </div>
+
+            <div class="offset-0 offset-lg-3 offset-md-2 offset-sm-2 col-12 col-sm-8 col-md-8 col-lg-6 text-center">
+                <h2 class="text-royal-blue bold-font custom-full-name-big vertical-margin-bottom">NOMBRE DEL PACIENTE
+                </h2>
+            </div>
+
+            <div class="offset-0 offset-lg-2 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-8">
+                <div class="row mt-3">
+                    <div class="col-12 mb-4">
+                        <span class="text-royal-blue bold-font custom-form-label-element">SEÑALE AQUELLAS
+                            ENFERMEDADES QUE SE HAN PRESENTADO EN SU FAMILIA (ABUELOS, TIOS, PRIMOS, PADRES,
+                            HIJOS).</span>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">DIABETES
+                                <input type="checkbox" name="enfermedad_diabetes" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">HIPERTENSION ARTERIAL
+                                <input type="checkbox" name="enfermedad_hipertension" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">INFARTO AGUDO DEL MIOCARDIO
+                                <input type="checkbox" name="enfermedad_infarto" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">ENFERMEDAD VASCULAR CEREBRAL
+                                <input type="checkbox" name="enfermedad_cerebral" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">CANCER
+                                <input type="checkbox" name="enfermedad_cancer" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">ASMA
+                                <input type="checkbox" name="enfermedad_asma" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">ENFERMEDAD PULMONAR OBSTRUCTIVA
+                                CRONICA
+                                <input type="checkbox" name="enfermedad_pulmonar" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">INSUFICIENCIA RENAL CRONICA
+                                <input type="checkbox" name="enfermedad_renal" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-12 mb-4">
+                        <span class="text-royal-blue bold-font custom-form-label-element">MARCA AQUELLAS
+                            ENFERMEDADES PARA LAS QUE RECIBES TRATAMIENTO MEDICO ACTUALMENTE.</span>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">DIABETES
+                                <input type="checkbox" name="tratamiento_diabetes" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">HIPERTENSION ARTERIAL
+                                <input type="checkbox" name="tratamiento_hipertension" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">INFARTO AGUDO DEL MIOCARDIO
+                                <input type="checkbox" name="tratamiento_infarto" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">ENFERMEDAD VASCULAR CEREBRAL
+                                <input type="checkbox" name="tratamiento_cerebral" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">CANCER
+                                <input type="checkbox" name="tratamiento_cancer" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">ASMA
+                                <input type="checkbox" name="tratamiento_asma" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">ENFERMEDAD PULMONAR OBSTRUCTIVA
+                                CRONICA
+                                <input type="checkbox" name="tratamiento_pulmonar" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-2">
+                        <div class="form-group">
+                            <label class="checktainer regular-font text-royal-blue">INSUFICIENCIA RENAL CRONICA
+                                <input type="checkbox" name="tratamiento_renal" />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue">OTRAS</span>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input type="text" name="tratamiento_otras" class="form-control custom-input" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12 mb-4">
+                        <span class="text-royal-blue bold-font custom-form-label-element">MARCA LA RESPUESTA
+                            CORRECTA EN CADA UNA DE LAS SIGUIENTES FRASES…</span>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-10 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue">LE HAN DETECTADO ALGUNA
+                            VEZ NIVELES ALTOS DE GLUCOSA EN SANGRE</span>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">Si
+                                <input type="radio" name="glucosa" value="yes" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">No
+                                <input type="radio" name="glucosa" value="not" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-10 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue">ALGUNA VEZ LE HAN
+                            ENCONTRADO NIVELES ALTOS DE PRESION ARTERIAL</span>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">Si
+                                <input type="radio" name="presion" value="yes" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">No
+                                <input type="radio" name="presion" value="not" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-10 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue">TE CANSAS CON
+                            FACILIDAD</span>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">Si
+                                <input type="radio" name="fatiga" value="yes" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">No
+                                <input type="radio" name="fatiga" value="not" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-10 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue">TINES DIFICULTAD PARA
+                            RESPIRAR</span>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">Si
+                                <input type="radio" name="respirar" value="yes" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">No
+                                <input type="radio" name="respirar" value="not" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-10 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue">HACES EJERCICIO
+                            FISICO</span>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">Si
+                                <input type="radio" name="ejercicio" value="yes" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">No
+                                <input type="radio" name="ejercicio" value="not" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-10 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue">DURAS 30 MINUTOS MINIMO
+                            HACIENDO EJERCICIO</span>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">Si
+                                <input type="radio" name="ejercicio2" value="yes" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">No
+                                <input type="radio" name="ejercicio2" value="not" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-10 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue">COMES DIARIO FRUTA,
+                            VERDURA Y PAN INTEGRAL</span>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">Si
+                                <input type="radio" name="verduras" value="yes" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-1">
+                        <div class="form-group">
+                            <label class="container regular-font text-royal-blue">No
+                                <input type="radio" name="verduras" value="not" />
+                                <span class="radiomark"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="offset-0 offset-lg-3 offset-md-2 offset-sm-2 col-12 col-sm-8 col-md-8 col-lg-6 vertical-margin-bottom">
+                <center>
+                    <button class="btn my-2 my-sm-0 custom-btn-save" type="submit">
+                        <span class="text-white bold-font custom-btn-save-text">Guardar</span>
+                    </button>
+                </center>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
