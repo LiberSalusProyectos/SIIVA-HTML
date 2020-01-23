@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/png" href="ico.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="theme-color" content="#000000" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Liber Bus</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body id="bootstrap_overrides">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div class="container-fluid">
+
+    <div class="row custom-vertical-padding">
+      <div class="offset-0 offset-md-2 offset-sm-2 offset-lg-3 col-12 col-sm-8 col-md-8 col-lg-6 text-center">
+        <button class="btn my-2 my-sm-0 custom-btn-disabled" type="submit">
+          <span>
+            <i class="fas fa-frown custom-icon icon-behind"></i>
+            <h4 class="text-white bold-font text-forward">ÍNDICE DE BARTHEL</h4>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <section class="instructions vertical-margin-bottom">
+          <p class="instructions-paragraph regular-font text-royal-blue">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse odio felis, venenatis volutpat
+            pellentesque at, iaculis eu nulla. Integer iaculis ipsum mauris, a mattis tortor ultrices tempor. Maecenas
+            non malesuada elit, id condimentum turpis. Maecenas condimentum lacus eget vulputate euismod. Cras sed
+            pellentesque arcu. Proin imperdiet commodo sagittis. Proin quam elit, mattis sed dolor sed, tempus elementum
+            eros. Quisque sollicitudin lectus tellus.
+          </p>
+        </section>
+      </div>
+
+      <div class="offset-0 offset-lg-3 offset-md-2 offset-sm-2 col-12 col-sm-8 col-md-8 col-lg-6 text-center">
+        <h2 class="text-royal-blue bold-font custom-full-name-big vertical-margin-bottom">NOMBRE DEL PACIENTE</h2>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+
+        <div class="row mt-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-md-4 mb-lg-0">
+            <span class="text-royal-blue bold-font custom-form-label-element">COMER</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">10 INDEPENDIENTE. Capaz de comer por si solo y en un tiempo razonable. La comida puede ser preparada y servida por otra persona.
+                <input type="radio" name="one" value="0" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">5 NECESITA AYUDA para comer la carne o el pan, pero es capaz de comer por el solo.
+                <input type="radio" name="one" value="1" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">0 DEPENDIENTE. Necesita ser alimentado por otra persona.
+                <input type="radio" name="one" value="2" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-md-4 mb-lg-0">
+            <span class="text-royal-blue bold-font custom-form-label-element">VESTIRSE</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">10 INDEPENDIENTE. Es capaz de quitarse y ponerse la ropa sin ayuda.
+                <input type="radio" name="two" value="0" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">5 NECESITA AYUDA. Realiza solo al menos la mitad da las tareas en un tiempo razonable.
+                <input type="radio" name="two" value="1" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">0 DEPENDIENTE.
+                <input type="radio" name="two" value="2" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-md-4 mb-lg-0">
+            <span class="text-royal-blue bold-font custom-form-label-element">ARREGLARSE</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">5 INDEPENDIENTE. Realiza todas las actividades personales sin ninguna ayuda. Los complementos necesarios pueden ser provistos por otra persona.
+                <input type="radio" name="tree" value="0" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">0 DEPENDIENTE. Necesita alguna ayuda.
+                <input type="radio" name="tree" value="1" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-md-4 mb-lg-0">
+            <span class="text-royal-blue bold-font custom-form-label-element">DEPOSICIÓN</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">10 CONTINENTE Ningún episodio de incontinencia.
+                <input type="radio" name="four" value="0" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">5 ACCIDENTE OCASIONAL Menos de una vez por semana o necesita ayuda, enemas o supositorios.
+                <input type="radio" name="four" value="1" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">0 INCONTINENTE.
+                <input type="radio" name="four" value="2" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-md-4 mb-lg-0">
+            <span class="text-royal-blue bold-font custom-form-label-element">MICCIÓN</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">10 CONTINENTE Ningún episodio de incontinencia, capaz de utilizar cualquier dispositivo por si solo.
+                <input type="radio" name="five" value="0" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">5 ACCIDENTE OCASIONAL Máximo un episodio de incontinencia en 24 horas. Incluye necesitar ayuda en la manipulación de sondas y otros dispositivos.
+                <input type="radio" name="five" value="1" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">0 INCONTINENTE.
+                <input type="radio" name="five" value="2" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-md-4 mb-lg-0">
+            <span class="text-royal-blue bold-font custom-form-label-element">IR AL RETRETE</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">10 INDEPENDIENTE Entra y sale solo y no necesita ayuda de otra persona.
+                <input type="radio" name="six" value="0" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">5 NECESITA AYUDA Capaz de manejarse con una pequeña ayuda, capaz de usar el cuarto de baño. Puede limpiarse solo.
+                <input type="radio" name="six" value="1" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">0 DEPENDIENTE Incapaz de manejarse sin ayuda.
+                <input type="radio" name="six" value="2" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+         
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-md-4 mb-lg-0">
+            <span class="text-royal-blue bold-font custom-form-label-element">TRASLADO SILLÓN-CAMA (Transferencia)</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">15 INDEPENDIENTE No precisa ayuda.
+                <input type="radio" name="seven" value="0" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">10 MINIMA AYUDA Incluye supervisión verbal o pequeña ayuda física.
+                <input type="radio" name="seven" value="1" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">5 GRAN AYUDA Precisa la ayuda de una persona fuerte o entrenada.
+                <input type="radio" name="seven" value="2" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">0 DEPENDIENTE Necesita grúa o alzamiento por dos personas. Incapaz de permanecer sentado.
+                <input type="radio" name="seven" value="3" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-md-4 mb-lg-0">
+            <span class="text-royal-blue bold-font custom-form-label-element">DEAMBULACIÓN</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">15 INDEPENDIENTE Puede andar 50 metros o su equivalente por casa sin ayuda ni supervisión de otra persona. Puede usar ayudas instrumentales (Muletas o bastón) excepto andador. Si utiliza prótesis debe ser capaz de ponérsela y quitársela solo.
+                <input type="radio" name="eight" value="0" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">10 NECESITA AYUDA Necesita supervisión o una pequeña ayuda física por otra persona. Precisa utilizar andador.
+                <input type="radio" name="eight" value="1" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">5 INDEPENDIENTE (en silla de ruedas) en 50 metros. No requiere ayuda ni supervisión. 
+                <input type="radio" name="eight" value="2" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">0 DEPENDIENTE.
+                <input type="radio" name="eight" value="3" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-md-4 mb-lg-0">
+            <span class="text-royal-blue bold-font custom-form-label-element">SUBIR Y BAJAR ESCALERAS</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">10 INDEPENDIENTE Capaz de subir y bajar un piso sin la ayuda ni supervisión de otra persona.
+                <input type="radio" name="nine" value="0" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">5 NECESITA AYUDA.
+                <input type="radio" name="nine" value="1" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <div class="form-group">
+              <label class="container regular-font text-royal-blue">0 DEPENDIENTE Incapaz de salvar escalones.
+                <input type="radio" name="nine" value="2" />
+                <span class="radiomark"></span>
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-0"></div>
+        </div>
+
+      <div
+        class="offset-0 offset-lg-3 offset-md-2 offset-sm-2 col-12 col-sm-8 col-md-8 col-lg-6 mt-4 vertical-margin-bottom">
+        <center>
+          <button class="btn my-2 my-sm-0 custom-btn-save" type="submit">
+            <span class="text-white bold-font custom-btn-save-text">Guardar</span>
+          </button>
+        </center>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
