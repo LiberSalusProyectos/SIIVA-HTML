@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/png" href="ico.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="theme-color" content="#000000" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Liber Bus</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body id="bootstrap_overrides">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div class="container-fluid">
+
+    <div class="row custom-vertical-padding">
+      <div class="offset-0 offset-md-2 offset-sm-2 offset-lg-3 col-12 col-sm-8 col-md-8 col-lg-6 text-center">
+        <button class="btn my-2 my-sm-0 custom-btn-disabled" type="submit">
+          <span>
+            <i class="fas fa-flushed custom-icon icon-behind"></i>
+            <h4 class="text-white bold-font text-forward">DESESPERANZA</h4>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <section class="instructions vertical-margin-bottom">
+          <p class="instructions-paragraph regular-font text-royal-blue">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse odio felis, venenatis volutpat
+            pellentesque at, iaculis eu nulla. Integer iaculis ipsum mauris, a mattis tortor ultrices tempor. Maecenas
+            non malesuada elit, id condimentum turpis. Maecenas condimentum lacus eget vulputate euismod. Cras sed
+            pellentesque arcu. Proin imperdiet commodo sagittis. Proin quam elit, mattis sed dolor sed, tempus elementum
+            eros. Quisque sollicitudin lectus tellus.
+          </p>
+        </section>
+      </div>
+
+      <div class="offset-0 offset-lg-3 offset-md-2 offset-sm-2 col-12 col-sm-8 col-md-8 col-lg-6 text-center">
+        <h2 class="text-royal-blue bold-font custom-full-name-big vertical-margin-bottom">NOMBRE DEL PACIENTE</h2>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-4">
+            <p class="text-royal-blue bold-font custom-form-label-element">V. VERDADERO</p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <p class="text-royal-blue bold-font custom-form-label-element">F. FALSO</p>
+          </div>
+<!--
+          <div class="col-12 col-sm-12 col-md-4">
+            <p class="text-royal-blue bold-font custom-form-label-element">2. A VECES</p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <p class="text-royal-blue bold-font custom-form-label-element">3. MUCHAS VECES</p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <p class="text-royal-blue bold-font custom-form-label-element">4. CASI SIEMPRE</p>
+          </div>
+        </div>
+      </div>
+-->
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-4">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>1. </strong>
+              Espero el futuro con esperanza y entusiasmo</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="anxious" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="anxious" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>2. </strong> Puedo darme por vencido, renunciar, ya que no puedo hacer mejor las cosas por mí mismo</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="tension" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="tension" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>3. </strong> Cuando las cosas van mal me alivia saber que las cosas no pueden permanecer tiempo así</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="fears" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="fears" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>4. </strong> No puedo imaginar cómo será mi vida dentro de 10 años</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="insomnia" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="insomnia" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>5. </strong>Tengo bastante tiempo para llevar a cabo las cosas que quisiera poder hacer</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="cognitive" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="cognitive" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>6. </strong>En el futuro, espero conseguir lo que me pueda interesar</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="mood" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="mood" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>7. </strong>Mi futuro me parece oscuro</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="muscle" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="muscle" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>8. </strong>Espero más cosas buenas de la vida que lo que la gente suele conseguir por término medio</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="sensory" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="sensory" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>9. </strong>No logro hacer que las cosas cambien, y no existen razones para creer que pueda pasar en el futuro</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="cardiology" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="cardiology" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>10. </strong>Mis pasadas experiencias me han preparado bien para el futuro</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="respiratory" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="respiratory" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>11. </strong>Todo lo que puedo ver por delante de mí es más desagradable que agradable </span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="gastrointestinal" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="gastrointestinal" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>12. </strong>No espero conseguir lo que realmente deseo</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="genitourinary" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="genitourinary" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>13. </strong>Cuando miro hacia el futuro, espero que seré más feliz de lo que soy ahora</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="nervous_system" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="nervous_system" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>14. </strong>Las cosas no marchan como yo quisiera</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="test_conduct" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="test_conduct" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>15. </strong>Tengo una gran confianza en el futuro</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="test_conduct" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="test_conduct" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>16. </strong>Nunca consigo lo que deseo, por lo que es absurdo desear cualquier cosa </span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="test_conduct" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="test_conduct" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>17. </strong>Es muy improbable que pueda lograr una satisfacción real en el futuro</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="test_conduct" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="test_conduct" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>18. </strong>El futuro me parece vago e incierto</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="test_conduct" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="test_conduct" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>19. </strong>Espero más bien épocas buenas que malas</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="test_conduct" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="test_conduct" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+        <div class="row mt-2">
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+            <span class="instructions-paragraph regular-font text-royal-blue"><strong>20. </strong>. No merece la pena que intente conseguir algo que desee, porque probablemente no lo lograré</span>
+          </div>
+          <div class="col-12 col-sm-12 col-lg-12 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">V
+                    <input type="radio" name="test_conduct" value="0" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="container regular-font text-royal-blue">F
+                    <input type="radio" name="test_conduct" value="1" />
+                    <span class="radiomark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="offset-0 offset-lg-3 offset-md-2 offset-sm-2 col-12 col-sm-8 col-md-8 col-lg-6 vertical-margin-bottom">
+        <center>
+          <button class="btn my-2 my-sm-0 custom-btn-save" type="submit">
+            <span class="text-white bold-font custom-btn-save-text">Guardar</span>
+          </button>
+        </center>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
