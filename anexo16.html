@@ -1,0 +1,2315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/png" href="ico.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Liber Bus</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body id="bootstrap_overrides">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="container-fluid">
+
+        <div class="row custom-vertical-padding">
+            <div class="offset-0 offset-md-2 offset-sm-2 offset-lg-3 col-12 col-sm-8 col-md-8 col-lg-6 text-center">
+                <button class="btn my-2 my-sm-0 custom-btn-disabled" type="submit">
+                    <span>
+                        <i class="fas fa-frown custom-icon icon-behind"></i>
+                        <h4 class="text-white bold-font text-forward">VIOLENCIA DE GÉNERO</h4>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <section class="instructions vertical-margin-bottom">
+                    <p class="instructions-paragraph regular-font text-royal-blue">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse odio felis, venenatis
+                        volutpat
+                        pellentesque at, iaculis eu nulla. Integer iaculis ipsum mauris, a mattis tortor ultrices
+                        tempor. Maecenas
+                        non malesuada elit, id condimentum turpis. Maecenas condimentum lacus eget vulputate euismod.
+                        Cras sed
+                        pellentesque arcu. Proin imperdiet commodo sagittis. Proin quam elit, mattis sed dolor sed,
+                        tempus elementum
+                        eros. Quisque sollicitudin lectus tellus.
+                    </p>
+                </section>
+            </div>
+
+            <div class="offset-0 offset-lg-3 offset-md-2 offset-sm-2 col-12 col-sm-8 col-md-8 col-lg-6 text-center">
+                <h2 class="text-royal-blue bold-font custom-full-name-big vertical-margin-bottom">NOMBRE DEL PACIENTE
+                </h2>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-4">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>1. </strong>
+                            Considero violencia el hecho de que me empujen aunque no me caiga.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>2. </strong> Considero violencia el hecho de que me empujen si caigo.
+                        </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>3.
+                        </strong>Sólo es violencia cuando te golpean mucho.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>4. </strong> Quien te quiere no puede pegarte.
+                        </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>5. </strong>Me siento inútil cuando me golpean.
+                        </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>6. </strong>Me parece normal que mi pareja me pegue si no le hace caso.                        </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>7. </strong>Me ha golpeado sin motivo aparente.
+                        </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>8. </strong>Antes de vivir conmigo, yo sabía que mi pareja había pegado a sus parejas anteriores.                        </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>9. </strong>He tenido relaciones sexuales con mi pareja por la fuerza.
+                            </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>10. </strong>Accedo a tener relaciones sexuales con mi pareja para evitar los malos tratos.
+                            </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>11. </strong>Tengo relaciones sexuales con mi pareja por miedo.
+                            </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>12. </strong>Considero que hay malos tratos aunque no me ponga una mano encima.
+                        </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>13. </strong>Él decide por mí.
+                            </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>14. </strong>Ha conseguido aislarme de mis amigos.			
+                            </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>15. </strong>Ha intentado aislarme de mi familia.
+                            </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>16. </strong>Me siento culpable de lo que pasa.
+                            </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>17. </strong>Me insulta en cualquier lugar.
+                            </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>18. </strong>Trato de ocultar los motivos de mis “moretones”.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>19. </strong>Siempre estoy en alerta</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>20. </strong>Lo he denunciado.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>21. </strong>Me asusta la manera en que me mira.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>22. </strong>Me siento sola.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>23. </strong>Puedo estudiar/trabajar fuera de casa.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>24. </strong>Me impide ver a mi familia.
+                        </span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>25. </strong>Vigila lo que hago.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>26. </strong>Creo que sigo “enganchada” a mi marido.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>27. </strong>Me siento culpable cuando mi marido se arrepiente.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>28. </strong>Me gusta cuidar mi aspecto.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>29. </strong>Yo creo que la mujer tiene que obedecer.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>30. </strong>Yo creo que las mujeres somos iguales que los hombres.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>31. </strong>Yo creo que las mujeres no llaman a la policía porque protegen a sus maridos.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>32. </strong>Yo creo que lo que ocurren en la familia es privado.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>33. </strong>Yo creo que las bofetadas pueden ser necesarias</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>34. </strong>Yo creo que los maltratadores son personas fracasadas.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>35. </strong>Yo creo que cuando te casas es para lo bueno y lo malo</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>36. </strong>Yo creo que soy capaz de realizar un proyecto de vida futuro y por mi cuenta.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>37. </strong>Yo creo que un/a hijo/a sin padre se desarrolla completamente.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>38. </strong>Yo creo que hay que aguantar el maltrato por los hijos.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>39. </strong>Yo creo que mi marido no puede vivir sin mí.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>40. </strong>Yo creo que no lo abandono porque lo quiero.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>41. </strong>Yo creo que no lo abandono aunque me pegue porque me da pena.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="row mt-2">
+                    <div class="col-12 col-sm-12 col-lg-12 col-xl-6 mb-2">
+                        <span class="instructions-paragraph regular-font text-royal-blue"><strong>42. </strong>Yo creo que la esposa tiene que aguantar lo que sea por el matrimonio.</span>
+                    </div>
+                    <div class="offset-0 offset-lg-1 offset-md-1 offset-sm-1 col-12 col-sm-10 col-md-10 col-lg-10">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">NUNCA
+                                        <input type="radio" name="anxious" value="1" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">ALGUNAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">MUCHAS VECES
+                                        <input type="radio" name="anxious" value="2" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">CASI SIEMPRE
+                                        <input type="radio" name="anxious" value="3" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="container regular-font text-royal-blue">SIEMPRE
+                                        <input type="radio" name="anxious" value="4" />
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div
+                class="offset-0 offset-lg-3 offset-md-2 offset-sm-2 col-12 col-sm-8 col-md-8 col-lg-6 vertical-margin-bottom">
+                <center>
+                    <button class="btn my-2 my-sm-0 custom-btn-save" type="submit">
+                        <span class="text-white bold-font custom-btn-save-text">Guardar</span>
+                    </button>
+                </center>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
